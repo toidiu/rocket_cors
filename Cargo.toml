@@ -21,7 +21,7 @@ serialization = ["serde", "serde_derive", "unicase_serde", "url_serde"]
 
 [dependencies]
 log = "0.3"
-rocket = "0.3.15"
+rocket = { git = "https://github.com/toidiu/Rocket", branch = "compat" }
 unicase = "2.0"
 url = "1.5.1"
 
